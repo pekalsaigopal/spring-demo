@@ -1,0 +1,18 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <bean id="helloBean" class="in.psg.model.HelloWorld" scope="singleton">
+    <!--setter injection        -->
+        <property name="name" value="Saigopal" />
+    </bean>
+
+    <bean id="helloBean2" class="in.psg.model.HelloWorld" scope="singleton">
+        <!--setter injection        -->
+        <property name="name" value="Sagar" />
+    </bean>
+
+
+
+</beans>
